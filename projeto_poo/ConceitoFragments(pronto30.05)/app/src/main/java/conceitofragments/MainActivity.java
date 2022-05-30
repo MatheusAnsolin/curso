@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends FragmentActivity implements ToolbarFragment.ToolbarListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
