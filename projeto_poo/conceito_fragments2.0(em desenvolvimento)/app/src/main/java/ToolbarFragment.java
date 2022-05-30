@@ -1,4 +1,4 @@
-package ramos.s.j.mauricio.uno.conceitofragments;
+package conceito_fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -50,6 +50,8 @@ public class ToolbarFragment extends Fragment implements SeekBar.OnSeekBarChange
        btnAlterarTexto  = toolbarLayoutInflated.findViewById(R.id.btnAlterarTexto);
        skbFormatarTexto = toolbarLayoutInflated.findViewById(R.id.skbFormatarTexto);
        edtInformarTexto = toolbarLayoutInflated.findViewById(R.id.edtInformarTexto);
+
+
 
        btnAlterarTexto.setOnClickListener(new View.OnClickListener() {
            @Override
