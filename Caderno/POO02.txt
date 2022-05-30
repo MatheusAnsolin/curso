@@ -1,0 +1,3 @@
+extends e implements
+herança
+exdends herda implements gera herança
