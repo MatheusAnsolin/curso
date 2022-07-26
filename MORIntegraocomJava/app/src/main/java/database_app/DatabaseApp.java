@@ -7,6 +7,7 @@ import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.room.RoomDatabase;
+import androidx.room.TypeConverters;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import java.util.concurrent.Executor;
@@ -14,6 +15,9 @@ import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.Executors;
 
 import curso.padilha.integraocomjava.R;
+import database_app.converter.Converters;
+
+@TypeConverters({Converters.class})
 
 public abstract class DatabaseApp extends RoomDatabase{
     private static final String  DB_NAME = "db_app.db";
@@ -23,10 +27,13 @@ public abstract class DatabaseApp extends RoomDatabase{
 
     public DatabaseApp() {    }
 
+
     public static synchronized DatabaseApp getInstance(Context context){
         return sInstance;
     }
+
     private static DatabaseApp getConnection(Context context) {
+
         return  null;
     }
 
@@ -43,7 +50,8 @@ public abstract class DatabaseApp extends RoomDatabase{
 
         @Override
         public void onOpen(@NonNull SupportSQLiteDatabase db) {
-            super.onOpen(db);
+
+
         }
     };
 
