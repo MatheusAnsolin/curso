@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <link rel = "icon" href = "https://www.svgrepo.com/show/362500/bug-bold.svg">
+    </head>
+
+
+    <body style="background-color: #ffd9c0">
+        <img src="https://static.educalingo.com/img/en/800/sunset.jpg" width="max " height="300"><br>
+        <a href="index.html">
+            <b>| HOME |</b>
+        </a>
+        <a href="somos.html">
+            <b>| QUEM SOMOS |</b>
+        </a>
+
+        <a href="contato.html">
+            <b>| CONTATO |</b>
+        </a>
+        
+        <h2>Entre em contao conosco:</h2>
+        <form action="">
+            <p>
+                Nome:<br>
+                <input type="text" size="30" name="nome">
+            </p>
+            <p>
+                E-mail:<br>
+                <input type="text" size="30" name="email">
+            </p>
+            <p>
+                Comentário: <br>
+                <input type="text" size="40" name="comentario">
+            </p>
+            <p>
+                <input type="submit" name="btnEnviar" value="Enviar">
+                <input type="reset" name="btnApagar" value="Apagar">
+
+            </p>
+        </form>
+        <h2>   Configuração </h2>
+        <form action="acao.php" method="post">
+            Limiar:
+            <input type="range" name="limiar" min="0" max="100" value="50">
+            <input type="submit" value="Enviar">
+        </form>
+
+        <form name="numero" id="num" method="get">
+            <input type="number" name="num" min="0" max="10" step="2">
+            <input type="submit" value="Enviar">
+        </form>
+
+        <div align = "center" style="background-color:beige ">
+            <form name="calendario" id="cadID" method="get">
+                Selecione uma Hora <input type="time" name="minHora" id="miHora">
+                <input type="submit" value="OK">
+
+            </form>
+        </div>
+
+        <div align = "right" style="background-color:blue">
+            <form name="formMes" id="Mes" name="mes">
+            Selecione o mes
+            <input type="month" name="selMes" id="escolheMes">
+            <input type="button" value="OK">
+            </form>
+        </div>
+
+        <div align = "left" style="background-color:yellow">
+            <form name="formSemana" id="semana" name="seman">
+            Selecione a semana
+            <input type="week" name="selWeek" id="escolheWeek">
+            <input type="button" value="OK">
+            </form>
+        </div>
+
+        
+
+        <span style="color: orange">
+            <marquee behavior direction = "up">
+                <p align = "center">
+                    <b>
+                        aula de html
+                    </b>
+                </p>
+            </marquee>
+
+        </span>
+        <span style="color: rgb(68, 0, 255)">
+            <marquee behavior = "alternative" direction="left" scrolldelay="0" scrolldelay="500">
+                <img src="https://images.vexels.com/media/users/3/144839/isolated/lists/c053fda836de068b36cc18db64aec46d-ilustra-o-de-carro-preto.png" alt="carrinho">
+                
+            </marquee>
+
+        </span>
+        
+
+        <span style="color: orange">
+            <marquee behavior ="alternative" direction="left" scrollamount="10" loop="10">
+            <img src="https://img.freepik.com/vetores-premium/foguete-espacial-moderno-com-design-realista_23-2147906961.jpg?w=2000" width="100" height="100" alt="FOGUETE">    
+            </marquee>
+
+        </span>
+
+        
+    </body>
+</html>

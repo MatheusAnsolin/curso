@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução CSS</title>
+    
+    <style>
+        input { 
+        background-color: solid rgb(189, 3, 189);
+        border: 1px;
+        border-radius: 0px;
+        }
+
+   /*      input.btn { 
+            background-color: bisque;
+            font-style: italic;
+            font-weight:bolder ;
+            cursor: pointer;
+        }
+ */
+        p { 
+            color: gray;
+            margin: 2px;
+            font-size: 12px;
+            }
+        h1 { 
+            size: 8px;
+            margin: 2px;
+        }
+      /*   .centrado { margin: 12px;}
+
+        p.minha_classe{
+            color:purple;
+        }
+        .nomeDaClasse {
+            background-color: chocolate ;
+            color: yellow;
+            font-size: 20px;
+        }
+ */
+        h2 {
+            max-width: fit-content;
+            color: rgb(34, 59, 16);
+            margin: 12px;
+            font-weight: bold;
+            font-size: larger;
+            margin: 2px;
+        }
+
+        fieldset{
+            border: 12px;
+            border-radius: 10%;
+            margin: 2px;
+            background-color: rgb(62, 223, 83);
+            color: green;
+            size: 40px;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(216, 243, 201);
+        }
+        legend{
+            color: rgb(199, 46, 199);
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <table cellspacing="10px" >
+            <td>
+                <tr>
+                    <legend> CADASTRE-SE </legend>
+                </tr>
+            </td>
+            <td>
+                <tr>
+                    <p>Insira seus dados abaixo e para receber as<br> novidades gratuitamentes no e-mail.</p>
+                </tr>
+            </td>
+            <td>
+                <tr>
+                <form action="post">
+                <input type="text" name="nome" id="name" placeholder=" Seu Nome">
+                </tr>
+            </td>
+            <br>
+            <td>
+                <tr>
+                 <input type="text" name="email" id="mail" placeholder=" Seu melhor e-mail!">
+                </tr>
+            </td>
+            <br>
+                <input type="submit" name="btnCadastrar" value="Cadastrar">
+            </form>
+      
+        </table>
+</fieldset>
+
+   <!-- </fieldset>
+    <fieldset>
+    </fieldset>
+    <fieldset>
+    <legend>
+        Login de E-mail:
+            <table>
+                <tr>
+                <td>
+                    Email:
+                </td>
+            </tr>
+        </table>
+    </legend>   
+    </fieldset>
+    <h2>Entre em contao conosco:</h2>
+    <form action="">
+        <p>
+            Nome:<br>
+            <input type="text" size="30" name="nome">
+        </p>
+        <p>
+            E-mail:<br>
+            <input type="text" size="30" name="email">
+        </p>
+        <p>
+            Comentário: <br>
+            <input type="text" size="40" name="comentario">
+        </p>
+        <p>
+            <input type="submit" name="btnEnviar" value="Enviar">
+            <input type="reset" name="btnApagar" value="Apagar">
+
+        </p>
+    </form>
+    <h2>   Configuração </h2>
+    <form action="acao.php" method="post">
+        Limiar:
+        <input type="range" name="limiar" min="0" max="100" value="50">
+        <input type="submit" value="Enviar">
+    </form>
+-->
+</body>
+</html>

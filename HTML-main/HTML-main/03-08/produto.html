@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>Cadastro de Produto</title>
+    <link rel = "icon" href = "C:\Users\Alunos\Documents\MatheusPadilha_workspace\site\03-08\novo-produto.png">
+</head>
+<body>
+    <table align="left">
+        <tr>
+            <td align="center">
+                <a href="usuario.html">
+                    <img src="C:\Users\Alunos\Documents\MatheusPadilha_workspace\site\03-08\adicionar-usuario.png" width="42" height="36">
+                    <br>
+                    Usuário
+                </a>
+            </td>
+            <td>
+                <a href="produto.html">
+                    <img src="C:\Users\Alunos\Documents\MatheusPadilha_workspace\site\03-08\novo-produto.png" width="42" height="36">
+                    <br>
+                    Produto
+                </a>
+            </td>
+        </tr>
+    </table>
+    <br>
+    
+    <h1 align = "center" >Formulário de Cadastro de Produto </h1>
+    <form action="" method="post">
+        <!-- Produtos  -->
+     <fieldset>
+        <legend>Produto </legend>
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <label for="descrição">Descrição: </label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="nome">
+                    </td>
+                    <td>
+                        <label for="cod">Código de Barra: </label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="codigo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="categoria">Caterogia: </label>
+                    </td>
+                    <td align="left">
+                        <select id="categoria" name="categoria">
+                            <option value=""> </option>
+                            <option value="bermuda"> Bermuda</option>
+                            <option value="calça"> Calça</option>
+                            <option value="camiseta"> Camiseta</option>
+                            <option value="casaco"> Casaco</option>
+                        </select>
+                    </td>
+                </tr>
+                    <td>
+                        <label for="preçovenda">Preço de venda: R$</label>
+                    </td>
+                    <td align="left">
+                        <input type="" name="preçovenda">
+                    </td>
+                    <td>
+                        <label for="preçocust">Preço de custo: R$</label>
+                    </td>
+                    <td align="left">
+                        <input type="" name="preçocust">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="img">Imagem: </label>
+                    </td>
+                    <td align="left">
+                        <input type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="quantidade">Quantidade em estoque: </label>
+                    </td>
+                    <td align="left">
+                        <input type="number">
+                    </td>
+                </tr>
+            </table>
+     </fieldset>
+<br>
+<input type="submit">
+<input type="reset" value="Limpar">
+
+</body>
+</html>
